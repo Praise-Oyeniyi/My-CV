@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a,li{
+    text-decoration: none;
+}
+body{
+    padding: 70px 20px;
+    max-width: 100%;
+    width:90%;
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+    margin: auto;
+    background-color: rgba(226, 226, 226, 0.295);
+    color:rgba(24, 24, 24, 0.856);
+}
+.logo{
+    cursor: pointer;
+    width:120px;
+    border-radius: 5px;
+}
+section{
+    margin:15px 0;
+}
+section h3{
+    padding:5px 0;
+    border-top: 2px solid #000;
+    border-bottom: .5px solid #000;
+}
+h3{
+    font-size:22px;
+    font-weight: bold;
+    color:#000;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    cursor:pointer;
+}
+h5{
+    padding: 5px 0;
+    font-size: 17px;
+    color:#000;
+    font-weight:500;
+    line-height: 1.2em;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+p{
+    padding:7px 0;
+    font-size: 15.5px;
+    text-indent: 5px;
+}
+ul{
+    list-style-type:square;
+    padding-left: 25px;
+}
+ul li{
+    font-size: 15.5px;
+    padding: 3px 0;
+}
+.introduction h5{
+    font-weight:500;
+}
+.introduction h3{
+    padding: 7px 0;
+}
+.profile-statement p, .experience p{
+    text-indent: 2rem;
+}
+span{
+    font-weight:bold;
+}
+section span{
+    text-decoration: underline;
+}
+a{
+    color:rgba(24, 24, 24, 0.856);
+    cursor: pointer;
+}
+a:hover{
+    color:rgba(24, 24, 24, 0.541);
+    transition: .3s ease;
+}
+footer h5{
+    display: inline;
+    padding-right:5px ;
+    font-weight: bold;
+}
+footer{
+    text-align: center;
+}
